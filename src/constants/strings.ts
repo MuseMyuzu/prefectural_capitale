@@ -1,4 +1,4 @@
-export const GAME_TITLE = 'Prefectural Capitale'
+export const GAME_TITLE = '県庁 WORDLE'
 
 export const WIN_MESSAGES = ['すばらしい！', 'よくできました', '正解！']
 export const GAME_COPIED_MESSAGE = 'クリップボードにコピーしました'

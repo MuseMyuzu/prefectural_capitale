@@ -89,6 +89,12 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       </p>
 
       <br></br>
+
+      <p className="text-left text-sm text-gray-500 dark:text-gray-300">
+        ※ 山梨市、沖縄市、浜松市、浦和市、下関市は県庁所在地ではありません。
+      </p>
+
+      <br></br>
       <hr></hr>
       <br></br>
 
@@ -98,7 +104,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       <p className="text-sm text-gray-500 dark:text-gray-300 text-left">
         コードは{' '}
         <a
-          href="https://github.com/MuseMyuzu/PrefecturalCapitalsWordle"
+          href="https://github.com/MuseMyuzu/prefectural_capitale/tree/master"
           className="underline"
         >
           Git

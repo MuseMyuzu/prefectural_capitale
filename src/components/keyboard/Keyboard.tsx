@@ -51,10 +51,16 @@ export const Keyboard = ({
 
   return (
     <div>
-      <div className="flex justify-center mb-1">
+      <div className="flex justify-center mb-5">
         <Key width={65.4} value="ENTER" onClick={onClick}>
           {ENTER_TEXT}
         </Key>
+        <Key width={65.4} value="DELETE" onClick={onClick}>
+          {DELETE_TEXT}
+        </Key>
+      </div>
+
+      <div className="flex justify-center mb-1">
         {['あ', 'か', 'さ', 'た', 'な', 'は', 'ま', 'や', 'ら', 'わ'].map(
           (key) => (
             <Key
@@ -66,9 +72,6 @@ export const Keyboard = ({
             />
           ),
         )}
-        <Key width={65.4} value="DELETE" onClick={onClick}>
-          {DELETE_TEXT}
-        </Key>
       </div>
 
       <div className="flex justify-center mb-1">

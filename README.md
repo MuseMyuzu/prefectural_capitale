@@ -1,3 +1,24 @@
+# 県庁 WORDLE (Prefectural Capitale)
+
+日本の県庁所在地を使った Wordle です。
+
+[https://musemyuzu.github.io/prefectural_capitale/](こちら)から遊べます。
+
+本家は[https://www.powerlanguage.co.uk/wordle/](こちら)
+
+# リンク
+#### バグの報告などはこちらに
+Twitter: [https://twitter.com/musemyuzu](https://twitter.com/musemyuzu)
+
+#### YouTube チャンネル
+YouTube: [https://www.youtube.com/channel/UC71_UDvWYvzwG6y4rDdH4Kg](https://www.youtube.com/channel/UC71_UDvWYvzwG6y4rDdH4Kg)
+
+# ライセンス
+
+MIT Licence
+
+自由に改造できます。
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
