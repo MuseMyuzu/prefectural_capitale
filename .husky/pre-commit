@@ -1,5 +1,6 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-npm lint-staged
-echo'from husky'
+#npm lint-staged
+#echo'from husky'
+npm run lint-staged

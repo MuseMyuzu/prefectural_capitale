@@ -30,7 +30,8 @@
     "prepare": "husky install",
     "lint-staged": "lint-staged",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "precommit": "lint-staged"
   },
   "eslintConfig": {
     "extends": [
