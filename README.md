@@ -2,22 +2,26 @@
 
 日本の県庁所在地を使った Wordle です。
 
-[https://musemyuzu.github.io/prefectural_capitale/](こちら)から遊べます。
+遊んでみてください → [**県庁 WORDLE**](https://musemyuzu.github.io/prefectural_capitale/)
 
-本家は[https://www.powerlanguage.co.uk/wordle/](こちら)
+<br>
+
+本家は[こちら](https://www.powerlanguage.co.uk/wordle/)
 
 # リンク
 #### バグの報告などはこちらに
-Twitter: [https://twitter.com/musemyuzu](https://twitter.com/musemyuzu)
+[Twitter](https://twitter.com/musemyuzu)
 
 #### YouTube チャンネル
-YouTube: [https://www.youtube.com/channel/UC71_UDvWYvzwG6y4rDdH4Kg](https://www.youtube.com/channel/UC71_UDvWYvzwG6y4rDdH4Kg)
+[YouTube](https://www.youtube.com/channel/UC71_UDvWYvzwG6y4rDdH4Kg)
 
 # ライセンス
 
 MIT Licence
 
 自由に改造できます。
+
+<hr>
 
 # Getting Started with Create React App
 
