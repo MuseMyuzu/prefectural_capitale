@@ -1,3 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
+Sitemap:https://musemyuzu.github.io/prefectural_capitale/sitemap.xml
