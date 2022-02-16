@@ -7,7 +7,9 @@ export const shareStatus = (guesses: string[], lost: boolean) => {
   navigator.clipboard.writeText(
     `${GAME_TITLE} ${solutionIndex} ${
       lost ? 'X' : guesses.length
-    }/${MAX_CHALLENGES}\n\n` + generateEmojiGrid(guesses),
+    }/${MAX_CHALLENGES}\n\n` +
+      generateEmojiGrid(guesses) +
+      '\n\nhttps://musemyuzu.github.io/prefectural_capitale/',
   )
 }
 
