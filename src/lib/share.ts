@@ -7,9 +7,7 @@ export const shareStatus = (guesses: string[], lost: boolean) => {
   navigator.clipboard.writeText(
     `${GAME_TITLE} ${solutionIndex} ${
       lost ? 'X' : guesses.length
-    }/${MAX_CHALLENGES}\n\n` +
-      generateEmojiGrid(guesses) +
-      '\n\nhttps://musemyuzu.github.io/prefectural_capitale/',
+    }/${MAX_CHALLENGES}\n\n` + generateEmojiGrid(guesses),
   )
 }
 
@@ -22,7 +20,7 @@ export const generateEmojiGrid = (guesses: string[]) => {
         .map((_, i) => {
           switch (status[i]) {
             case 'correct':
-              return '🟩'
+              return '🟪'
             case 'present':
               return '🟨'
             default:
